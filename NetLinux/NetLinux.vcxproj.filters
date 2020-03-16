@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Sources\main.cpp" />
+    <ClCompile Include="Sources\Basic\io-syscall.c">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="soket_syscall.c">
+      <Filter>Basic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Basic">
+      <UniqueIdentifier>{f0ec5620-19f7-4435-aa99-295da9fdf583}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

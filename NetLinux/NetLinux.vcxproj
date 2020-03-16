@@ -47,35 +47,35 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
     <UseDebugLibraries>true</UseDebugLibraries>
-    <RemoteRootDir>~/바탕화면/General/Study</RemoteRootDir>
+    <RemoteRootDir>~/바탕화면/General/Study/$(SolutionName)/</RemoteRootDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
     <UseDebugLibraries>false</UseDebugLibraries>
-    <RemoteRootDir>~/바탕화면/General/Study</RemoteRootDir>
+    <RemoteRootDir>~/바탕화면/General/Study/$(SolutionName)/</RemoteRootDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
     <UseDebugLibraries>true</UseDebugLibraries>
-    <RemoteRootDir>~/바탕화면/General/Study</RemoteRootDir>
+    <RemoteRootDir>~/바탕화면/General/Study/$(SolutionName)/</RemoteRootDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
     <UseDebugLibraries>false</UseDebugLibraries>
-    <RemoteRootDir>~/바탕화면/General/Study</RemoteRootDir>
+    <RemoteRootDir>~/바탕화면/General/Study/$(SolutionName)/</RemoteRootDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <UseDebugLibraries>true</UseDebugLibraries>
-    <RemoteRootDir>~/바탕화면/General/Study</RemoteRootDir>
+    <RemoteRootDir>~/바탕화면/General/Study/$(SolutionName)/</RemoteRootDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <UseDebugLibraries>false</UseDebugLibraries>
-    <RemoteRootDir>~/바탕화면/General/Study</RemoteRootDir>
+    <RemoteRootDir>~/바탕화면/General/Study/$(SolutionName)/</RemoteRootDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
     <UseDebugLibraries>false</UseDebugLibraries>
-    <RemoteRootDir>~/바탕화면/General/Study</RemoteRootDir>
+    <RemoteRootDir>~/바탕화면/General/Study/$(SolutionName)/</RemoteRootDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
     <UseDebugLibraries>true</UseDebugLibraries>
-    <RemoteRootDir>~/바탕화면/General/Study</RemoteRootDir>
+    <RemoteRootDir>~/바탕화면/General/Study/$(SolutionName)/</RemoteRootDir>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings" />
@@ -85,52 +85,62 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <OutDir>$(ProjectDir)Binaries\$(Configuration)\$(PlatformTarget)\</OutDir>
     <IntDir>$(ProjectDir)Intermediates\$(Configuration)\$(PlatformTarget)\</IntDir>
-    <RemoteProjectDir>$(RemoteRootDir)$(ProjectName)</RemoteProjectDir>
-    <RemoteDeployDir>$(RemoteProjectDir)$(Configuration)/$(PlatformTarget)</RemoteDeployDir>
+    <RemoteProjectDir>$(RemoteRootDir)$(ProjectName)/</RemoteProjectDir>
+    <RemoteDeployDir>$(RemoteProjectDir)$(Configuration)/$(PlatformTarget)/</RemoteDeployDir>
+    <TargetName>$(ProjectName.toLower)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
     <OutDir>$(ProjectDir)Binaries\$(Configuration)\$(PlatformTarget)\</OutDir>
     <IntDir>$(ProjectDir)Intermediates\$(Configuration)\$(PlatformTarget)\</IntDir>
-    <RemoteProjectDir>$(RemoteRootDir)$(ProjectName)</RemoteProjectDir>
-    <RemoteDeployDir>$(RemoteProjectDir)$(Configuration)/$(PlatformTarget)</RemoteDeployDir>
+    <RemoteProjectDir>$(RemoteRootDir)$(ProjectName)/</RemoteProjectDir>
+    <RemoteDeployDir>$(RemoteProjectDir)$(Configuration)/$(PlatformTarget)/</RemoteDeployDir>
+    <TargetName>$(ProjectName.toLower)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
     <OutDir>$(ProjectDir)Binaries\$(Configuration)\$(PlatformTarget)\</OutDir>
     <IntDir>$(ProjectDir)Intermediates\$(Configuration)\$(PlatformTarget)\</IntDir>
-    <RemoteProjectDir>$(RemoteRootDir)$(ProjectName)</RemoteProjectDir>
-    <RemoteDeployDir>$(RemoteProjectDir)$(Configuration)/$(PlatformTarget)</RemoteDeployDir>
+    <RemoteProjectDir>$(RemoteRootDir)$(ProjectName)/</RemoteProjectDir>
+    <RemoteDeployDir>$(RemoteProjectDir)$(Configuration)/$(PlatformTarget)/</RemoteDeployDir>
+    <TargetName>$(ProjectName.toLower)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
     <OutDir>$(ProjectDir)Binaries\$(Configuration)\$(PlatformTarget)\</OutDir>
     <IntDir>$(ProjectDir)Intermediates\$(Configuration)\$(PlatformTarget)\</IntDir>
-    <RemoteProjectDir>$(RemoteRootDir)$(ProjectName)</RemoteProjectDir>
-    <RemoteDeployDir>$(RemoteProjectDir)$(Configuration)/$(PlatformTarget)</RemoteDeployDir>
+    <RemoteProjectDir>$(RemoteRootDir)$(ProjectName)/</RemoteProjectDir>
+    <RemoteDeployDir>$(RemoteProjectDir)$(Configuration)/$(PlatformTarget)/</RemoteDeployDir>
+    <TargetName>$(ProjectName.toLower)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>$(ProjectDir)Binaries\$(Configuration)\$(PlatformTarget)\</OutDir>
     <IntDir>$(ProjectDir)Intermediates\$(Configuration)\$(PlatformTarget)\</IntDir>
-    <RemoteProjectDir>$(RemoteRootDir)$(ProjectName)</RemoteProjectDir>
-    <RemoteDeployDir>$(RemoteProjectDir)$(Configuration)/$(PlatformTarget)</RemoteDeployDir>
+    <RemoteProjectDir>$(RemoteRootDir)$(ProjectName)/</RemoteProjectDir>
+    <RemoteDeployDir>$(RemoteProjectDir)$(Configuration)/$(PlatformTarget)/</RemoteDeployDir>
+    <TargetName>$(ProjectName.toLower)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>$(ProjectDir)Binaries\$(Configuration)\$(PlatformTarget)\</OutDir>
     <IntDir>$(ProjectDir)Intermediates\$(Configuration)\$(PlatformTarget)\</IntDir>
-    <RemoteProjectDir>$(RemoteRootDir)$(ProjectName)</RemoteProjectDir>
-    <RemoteDeployDir>$(RemoteProjectDir)$(Configuration)/$(PlatformTarget)</RemoteDeployDir>
+    <RemoteProjectDir>$(RemoteRootDir)$(ProjectName)/</RemoteProjectDir>
+    <RemoteDeployDir>$(RemoteProjectDir)$(Configuration)/$(PlatformTarget)/</RemoteDeployDir>
+    <TargetName>$(ProjectName.toLower)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
     <OutDir>$(ProjectDir)Binaries\$(Configuration)\$(PlatformTarget)\</OutDir>
     <IntDir>$(ProjectDir)Intermediates\$(Configuration)\$(PlatformTarget)\</IntDir>
-    <RemoteProjectDir>$(RemoteRootDir)$(ProjectName)</RemoteProjectDir>
-    <RemoteDeployDir>$(RemoteProjectDir)$(Configuration)/$(PlatformTarget)</RemoteDeployDir>
+    <RemoteProjectDir>$(RemoteRootDir)$(ProjectName)/</RemoteProjectDir>
+    <RemoteDeployDir>$(RemoteProjectDir)$(Configuration)/$(PlatformTarget)/</RemoteDeployDir>
+    <TargetName>$(ProjectName.toLower)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
     <OutDir>$(ProjectDir)Binaries\$(Configuration)\$(PlatformTarget)\</OutDir>
     <IntDir>$(ProjectDir)Intermediates\$(Configuration)\$(PlatformTarget)\</IntDir>
-    <RemoteProjectDir>$(RemoteRootDir)$(ProjectName)</RemoteProjectDir>
-    <RemoteDeployDir>$(RemoteProjectDir)$(Configuration)/$(PlatformTarget)</RemoteDeployDir>
+    <RemoteProjectDir>$(RemoteRootDir)$(ProjectName)/</RemoteProjectDir>
+    <RemoteDeployDir>$(RemoteProjectDir)$(Configuration)/$(PlatformTarget)/</RemoteDeployDir>
+    <TargetName>$(ProjectName.toLower)</TargetName>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="soket_syscall.c" />
+    <ClCompile Include="Sources\Basic\io-syscall.c" />
     <ClCompile Include="Sources\main.cpp" />
   </ItemGroup>
   <ItemDefinitionGroup />
