@@ -3,14 +3,32 @@
   <ItemGroup>
     <ClCompile Include="Sources\main.cpp" />
     <ClCompile Include="Sources\Basic\io-syscall.c">
-      <Filter>Basic</Filter>
+      <Filter>소스 파일\Basic</Filter>
     </ClCompile>
-    <ClCompile Include="soket_syscall.c">
-      <Filter>Basic</Filter>
+    <ClCompile Include="Sources\Basic\ip_uint.c">
+      <Filter>소스 파일\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Basic\socket_syscall.c">
+      <Filter>소스 파일\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Basic\address-resolution.c">
+      <Filter>소스 파일\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Basic\getbyhostname.c">
+      <Filter>소스 파일\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Basic\basic_tcp_service.c">
+      <Filter>소스 파일\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Basic\basic_tcp_client.c">
+      <Filter>소스 파일\Basic</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="Basic">
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{e0952933-b0a9-48e1-b5a7-6bd1b3be8f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Basic">
       <UniqueIdentifier>{f0ec5620-19f7-4435-aa99-295da9fdf583}</UniqueIdentifier>
     </Filter>
   </ItemGroup>

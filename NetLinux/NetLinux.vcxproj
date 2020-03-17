@@ -139,8 +139,13 @@
     <TargetName>$(ProjectName.toLower)</TargetName>
   </PropertyGroup>
   <ItemGroup>
-    <ClCompile Include="soket_syscall.c" />
+    <ClCompile Include="Sources\Basic\address-resolution.c" />
+    <ClCompile Include="Sources\Basic\basic_tcp_client.c" />
+    <ClCompile Include="Sources\Basic\basic_tcp_service.c" />
+    <ClCompile Include="Sources\Basic\getbyhostname.c" />
     <ClCompile Include="Sources\Basic\io-syscall.c" />
+    <ClCompile Include="Sources\Basic\ip_uint.c" />
+    <ClCompile Include="Sources\Basic\socket_syscall.c" />
     <ClCompile Include="Sources\main.cpp" />
   </ItemGroup>
   <ItemDefinitionGroup />
