@@ -146,9 +146,54 @@
     <ClCompile Include="Sources\Basic\io-syscall.c" />
     <ClCompile Include="Sources\Basic\ip_uint.c" />
     <ClCompile Include="Sources\Basic\socket_syscall.c" />
+    <ClCompile Include="Sources\Common\resource.c" />
+    <ClCompile Include="Sources\Iterative\tcp_iter_client.c" />
+    <ClCompile Include="Sources\Iterative\tcp_iter_server.c" />
     <ClCompile Include="Sources\main.cpp" />
   </ItemGroup>
-  <ItemDefinitionGroup />
+  <ItemGroup>
+    <ClInclude Include="Sources\Common\resource.h" />
+  </ItemGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Minusi\Desktop\General\Study\Network\common;C:\Users\Minusi\Desktop\General\Study\Network\NetLinux\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Minusi\Desktop\General\Study\Network\common;C:\Users\Minusi\Desktop\General\Study\Network\NetLinux\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Minusi\Desktop\General\Study\Network\common;C:\Users\Minusi\Desktop\General\Study\Network\NetLinux\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Minusi\Desktop\General\Study\Network\common;C:\Users\Minusi\Desktop\General\Study\Network\NetLinux\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Minusi\Desktop\General\Study\Network\common;C:\Users\Minusi\Desktop\General\Study\Network\NetLinux\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Minusi\Desktop\General\Study\Network\common;C:\Users\Minusi\Desktop\General\Study\Network\NetLinux\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Minusi\Desktop\General\Study\Network\common;C:\Users\Minusi\Desktop\General\Study\Network\NetLinux\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Minusi\Desktop\General\Study\Network\common;C:\Users\Minusi\Desktop\General\Study\Network\NetLinux\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
 </Project>

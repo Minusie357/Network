@@ -23,6 +23,15 @@
     <ClCompile Include="Sources\Basic\basic_tcp_client.c">
       <Filter>소스 파일\Basic</Filter>
     </ClCompile>
+    <ClCompile Include="Sources\Iterative\tcp_iter_server.c">
+      <Filter>소스 파일\Iterative</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Iterative\tcp_iter_client.c">
+      <Filter>소스 파일\Iterative</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Common\resource.c">
+      <Filter>소스 파일\Common</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="소스 파일">
@@ -31,5 +40,16 @@
     <Filter Include="소스 파일\Basic">
       <UniqueIdentifier>{f0ec5620-19f7-4435-aa99-295da9fdf583}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Iterative">
+      <UniqueIdentifier>{8e353dcb-5add-41e9-8d83-159908f21784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Common">
+      <UniqueIdentifier>{0047cf9e-0d1f-4585-b824-3f8ad9768034}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sources\Common\resource.h">
+      <Filter>소스 파일\Common</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

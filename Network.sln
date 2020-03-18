@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetLinux", "NetLinux\NetLinux.vcxproj", "{36655BF4-31BD-4945-A958-5E133B9273D4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetWindows", "NetWindows\NetWindows.vcxproj", "{48F5E6B9-35C1-485E-AA6E-5A61F18BEE7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -41,6 +43,18 @@ Global
 		{36655BF4-31BD-4945-A958-5E133B9273D4}.Release|x86.ActiveCfg = Release|x86
 		{36655BF4-31BD-4945-A958-5E133B9273D4}.Release|x86.Build.0 = Release|x86
 		{36655BF4-31BD-4945-A958-5E133B9273D4}.Release|x86.Deploy.0 = Release|x86
+		{48F5E6B9-35C1-485E-AA6E-5A61F18BEE7C}.Debug|ARM.ActiveCfg = Debug|Win32
+		{48F5E6B9-35C1-485E-AA6E-5A61F18BEE7C}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{48F5E6B9-35C1-485E-AA6E-5A61F18BEE7C}.Debug|x64.ActiveCfg = Debug|x64
+		{48F5E6B9-35C1-485E-AA6E-5A61F18BEE7C}.Debug|x64.Build.0 = Debug|x64
+		{48F5E6B9-35C1-485E-AA6E-5A61F18BEE7C}.Debug|x86.ActiveCfg = Debug|Win32
+		{48F5E6B9-35C1-485E-AA6E-5A61F18BEE7C}.Debug|x86.Build.0 = Debug|Win32
+		{48F5E6B9-35C1-485E-AA6E-5A61F18BEE7C}.Release|ARM.ActiveCfg = Release|Win32
+		{48F5E6B9-35C1-485E-AA6E-5A61F18BEE7C}.Release|ARM64.ActiveCfg = Release|Win32
+		{48F5E6B9-35C1-485E-AA6E-5A61F18BEE7C}.Release|x64.ActiveCfg = Release|x64
+		{48F5E6B9-35C1-485E-AA6E-5A61F18BEE7C}.Release|x64.Build.0 = Release|x64
+		{48F5E6B9-35C1-485E-AA6E-5A61F18BEE7C}.Release|x86.ActiveCfg = Release|Win32
+		{48F5E6B9-35C1-485E-AA6E-5A61F18BEE7C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
