@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Basic">
+      <UniqueIdentifier>{69c0444b-4603-4c18-aea0-c06918917c24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Basic\Iterative">
+      <UniqueIdentifier>{db8b3e0f-5810-4d54-be8a-ab93a8d7f3e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Common">
+      <UniqueIdentifier>{a4c46478-7059-47a2-9ae5-517efdd8b6d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="win_tcp_iter_server.cpp">
+      <Filter>소스 파일\Basic\Iterative</Filter>
+    </ClCompile>
+    <ClCompile Include="errorproc.cpp">
+      <Filter>소스 파일\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="win_tcp_iter_client.cpp">
+      <Filter>소스 파일\Basic\Iterative</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="errorproc.h">
+      <Filter>소스 파일\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
