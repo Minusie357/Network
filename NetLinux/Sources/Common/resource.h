@@ -1,4 +1,5 @@
 #pragma once
+#include <stdlib.h>
 
 extern const size_t RM_MAX_MANAGE;
 extern const size_t RM_REDUCE_COND;

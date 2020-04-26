@@ -2,27 +2,6 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="Sources\main.cpp" />
-    <ClCompile Include="Sources\Basic\io-syscall.c">
-      <Filter>소스 파일\Basic</Filter>
-    </ClCompile>
-    <ClCompile Include="Sources\Basic\ip_uint.c">
-      <Filter>소스 파일\Basic</Filter>
-    </ClCompile>
-    <ClCompile Include="Sources\Basic\socket_syscall.c">
-      <Filter>소스 파일\Basic</Filter>
-    </ClCompile>
-    <ClCompile Include="Sources\Basic\address-resolution.c">
-      <Filter>소스 파일\Basic</Filter>
-    </ClCompile>
-    <ClCompile Include="Sources\Basic\getbyhostname.c">
-      <Filter>소스 파일\Basic</Filter>
-    </ClCompile>
-    <ClCompile Include="Sources\Basic\basic_tcp_service.c">
-      <Filter>소스 파일\Basic</Filter>
-    </ClCompile>
-    <ClCompile Include="Sources\Basic\basic_tcp_client.c">
-      <Filter>소스 파일\Basic</Filter>
-    </ClCompile>
     <ClCompile Include="Sources\Iterative\tcp_iter_server.c">
       <Filter>소스 파일\Iterative</Filter>
     </ClCompile>
@@ -31,6 +10,36 @@
     </ClCompile>
     <ClCompile Include="Sources\Common\resource.c">
       <Filter>소스 파일\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Basic\address-resolution.c">
+      <Filter>소스 파일\Basic\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Basic\basic_tcp_client.c">
+      <Filter>소스 파일\Basic\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Basic\basic_tcp_service.c">
+      <Filter>소스 파일\Basic\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Basic\getbyhostname.c">
+      <Filter>소스 파일\Basic\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Basic\io-syscall.c">
+      <Filter>소스 파일\Basic\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Basic\ip_uint.c">
+      <Filter>소스 파일\Basic\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Basic\socket_syscall.c">
+      <Filter>소스 파일\Basic\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Common\errorproc.c">
+      <Filter>소스 파일\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Basic\sendto.c">
+      <Filter>소스 파일\Basic\UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Common\recvfrom.c">
+      <Filter>소스 파일\Basic\UDP</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -46,9 +55,21 @@
     <Filter Include="소스 파일\Common">
       <UniqueIdentifier>{0047cf9e-0d1f-4585-b824-3f8ad9768034}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\UDP">
+      <UniqueIdentifier>{d696ddf7-fc1e-4275-a3b4-5c768a7c6dcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Basic\TCP">
+      <UniqueIdentifier>{7602a9c4-f656-4a37-b0ba-ee429d1b0775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Basic\UDP">
+      <UniqueIdentifier>{a7708eaf-b88f-4967-ba24-7334fdcafcab}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sources\Common\resource.h">
+      <Filter>소스 파일\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Common\errorproc.h">
       <Filter>소스 파일\Common</Filter>
     </ClInclude>
   </ItemGroup>

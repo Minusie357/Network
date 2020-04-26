@@ -145,13 +145,17 @@
     <ClCompile Include="Sources\Basic\getbyhostname.c" />
     <ClCompile Include="Sources\Basic\io-syscall.c" />
     <ClCompile Include="Sources\Basic\ip_uint.c" />
+    <ClCompile Include="Sources\Basic\sendto.c" />
     <ClCompile Include="Sources\Basic\socket_syscall.c" />
+    <ClCompile Include="Sources\Common\errorproc.c" />
+    <ClCompile Include="Sources\Common\recvfrom.c" />
     <ClCompile Include="Sources\Common\resource.c" />
     <ClCompile Include="Sources\Iterative\tcp_iter_client.c" />
     <ClCompile Include="Sources\Iterative\tcp_iter_server.c" />
     <ClCompile Include="Sources\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Sources\Common\errorproc.h" />
     <ClInclude Include="Sources\Common\resource.h" />
   </ItemGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
