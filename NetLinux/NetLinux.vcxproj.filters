@@ -35,11 +35,23 @@
     <ClCompile Include="Sources\Common\errorproc.c">
       <Filter>소스 파일\Common</Filter>
     </ClCompile>
-    <ClCompile Include="Sources\Basic\sendto.c">
-      <Filter>소스 파일\Basic\UDP</Filter>
-    </ClCompile>
     <ClCompile Include="Sources\Common\recvfrom.c">
-      <Filter>소스 파일\Basic\UDP</Filter>
+      <Filter>소스 파일\Basic\UDP\Comb1</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Basic\sendto.c">
+      <Filter>소스 파일\Basic\UDP\Comb1</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Basic\recvfromprint.c">
+      <Filter>소스 파일\Basic\UDP\Comb2</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Basic\sendtowithbind.c">
+      <Filter>소스 파일\Basic\UDP\Comb2</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Basic\unconn_echo_server.c">
+      <Filter>소스 파일\Basic\UDP\Comb3</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Basic\conn_echo_client.c">
+      <Filter>소스 파일\Basic\UDP\Comb3</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -63,6 +75,15 @@
     </Filter>
     <Filter Include="소스 파일\Basic\UDP">
       <UniqueIdentifier>{a7708eaf-b88f-4967-ba24-7334fdcafcab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Basic\UDP\Comb1">
+      <UniqueIdentifier>{035a414a-9c42-41da-982c-5bab0b4df29c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Basic\UDP\Comb2">
+      <UniqueIdentifier>{3bff5a5b-96f5-48c4-8ab5-5b3098f772e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Basic\UDP\Comb3">
+      <UniqueIdentifier>{102890c7-49d0-4885-a624-0686b96a5e9a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

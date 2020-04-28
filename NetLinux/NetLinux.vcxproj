@@ -48,6 +48,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
     <UseDebugLibraries>true</UseDebugLibraries>
     <RemoteRootDir>~/바탕화면/General/Study/$(SolutionName)/</RemoteRootDir>
+    <PlatformToolset>Remote_GCC_1_0</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
     <UseDebugLibraries>false</UseDebugLibraries>
@@ -56,6 +57,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
     <UseDebugLibraries>true</UseDebugLibraries>
     <RemoteRootDir>~/바탕화면/General/Study/$(SolutionName)/</RemoteRootDir>
+    <PlatformToolset>Remote_GCC_1_0</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
     <UseDebugLibraries>false</UseDebugLibraries>
@@ -64,6 +66,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <UseDebugLibraries>true</UseDebugLibraries>
     <RemoteRootDir>~/바탕화면/General/Study/$(SolutionName)/</RemoteRootDir>
+    <PlatformToolset>Remote_GCC_1_0</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <UseDebugLibraries>false</UseDebugLibraries>
@@ -76,6 +79,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
     <UseDebugLibraries>true</UseDebugLibraries>
     <RemoteRootDir>~/바탕화면/General/Study/$(SolutionName)/</RemoteRootDir>
+    <PlatformToolset>Remote_GCC_1_0</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings" />
@@ -142,11 +146,15 @@
     <ClCompile Include="Sources\Basic\address-resolution.c" />
     <ClCompile Include="Sources\Basic\basic_tcp_client.c" />
     <ClCompile Include="Sources\Basic\basic_tcp_service.c" />
+    <ClCompile Include="Sources\Basic\conn_echo_client.c" />
     <ClCompile Include="Sources\Basic\getbyhostname.c" />
     <ClCompile Include="Sources\Basic\io-syscall.c" />
     <ClCompile Include="Sources\Basic\ip_uint.c" />
+    <ClCompile Include="Sources\Basic\recvfromprint.c" />
     <ClCompile Include="Sources\Basic\sendto.c" />
+    <ClCompile Include="Sources\Basic\sendtowithbind.c" />
     <ClCompile Include="Sources\Basic\socket_syscall.c" />
+    <ClCompile Include="Sources\Basic\unconn_echo_server.c" />
     <ClCompile Include="Sources\Common\errorproc.c" />
     <ClCompile Include="Sources\Common\recvfrom.c" />
     <ClCompile Include="Sources\Common\resource.c" />
