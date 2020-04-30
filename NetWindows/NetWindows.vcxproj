@@ -154,12 +154,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="errorproc.cpp" />
+    <ClCompile Include="Sources\Basic\win_udp_echo_client.cpp" />
+    <ClCompile Include="Sources\Basic\win_udp_echo_server.cpp" />
+    <ClCompile Include="Sources\Common\errorproc.cpp" />
     <ClCompile Include="win_tcp_iter_client.cpp" />
     <ClCompile Include="win_tcp_iter_server.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="errorproc.h" />
+    <ClInclude Include="Sources\Common\errorproc.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

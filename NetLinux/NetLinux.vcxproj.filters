@@ -47,11 +47,14 @@
     <ClCompile Include="Sources\Basic\sendtowithbind.c">
       <Filter>소스 파일\Basic\UDP\Comb2</Filter>
     </ClCompile>
+    <ClCompile Include="Sources\Basic\conn_echo_client.c">
+      <Filter>소스 파일\Basic\UDP\Comb3</Filter>
+    </ClCompile>
     <ClCompile Include="Sources\Basic\unconn_echo_server.c">
       <Filter>소스 파일\Basic\UDP\Comb3</Filter>
     </ClCompile>
-    <ClCompile Include="Sources\Basic\conn_echo_client.c">
-      <Filter>소스 파일\Basic\UDP\Comb3</Filter>
+    <ClCompile Include="Sources\Basic\real_echo_client.c">
+      <Filter>소스 파일\Basic\UDP\Comb4</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -84,6 +87,9 @@
     </Filter>
     <Filter Include="소스 파일\Basic\UDP\Comb3">
       <UniqueIdentifier>{102890c7-49d0-4885-a624-0686b96a5e9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Basic\UDP\Comb4">
+      <UniqueIdentifier>{9a50b1cc-f27c-411e-a987-5819f5f37f25}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

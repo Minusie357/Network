@@ -55,7 +55,7 @@
 //		printf("SYSTEM::%s(%d) > %s\n", inet_ntoa(client_addr.sin_addr), ntohs(client_addr.sin_port), buffer);
 //
 //		size_t len_string = strlen(buffer);
-//		buffer_size = len_string >= BUFSIZ ? BUFSIZ - 1 : len_string - 1;
+//		buffer_size = len_string >= BUFSIZ ? BUFSIZ - 1 : len_string;
 //		tx_size = sendto(server_socket, buffer, buffer_size, 0, (struct sockaddr*) & client_addr, len_clieaddr);
 //		if (tx_size == -1)
 //			error_processing(&rm, "sendto");

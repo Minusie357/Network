@@ -150,6 +150,7 @@
     <ClCompile Include="Sources\Basic\getbyhostname.c" />
     <ClCompile Include="Sources\Basic\io-syscall.c" />
     <ClCompile Include="Sources\Basic\ip_uint.c" />
+    <ClCompile Include="Sources\Basic\real_echo_client.c" />
     <ClCompile Include="Sources\Basic\recvfromprint.c" />
     <ClCompile Include="Sources\Basic\sendto.c" />
     <ClCompile Include="Sources\Basic\sendtowithbind.c" />

@@ -18,20 +18,29 @@
     <Filter Include="소스 파일\Common">
       <UniqueIdentifier>{a4c46478-7059-47a2-9ae5-517efdd8b6d3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Basic\UDP">
+      <UniqueIdentifier>{f72f9188-8706-41d6-85a1-8782becf7e74}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="win_tcp_iter_server.cpp">
       <Filter>소스 파일\Basic\Iterative</Filter>
     </ClCompile>
-    <ClCompile Include="errorproc.cpp">
-      <Filter>소스 파일\Common</Filter>
-    </ClCompile>
     <ClCompile Include="win_tcp_iter_client.cpp">
       <Filter>소스 파일\Basic\Iterative</Filter>
     </ClCompile>
+    <ClCompile Include="Sources\Basic\win_udp_echo_server.cpp">
+      <Filter>소스 파일\Basic\UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Common\errorproc.cpp">
+      <Filter>소스 파일\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Basic\win_udp_echo_client.cpp">
+      <Filter>소스 파일\Basic\UDP</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="errorproc.h">
+    <ClInclude Include="Sources\Common\errorproc.h">
       <Filter>소스 파일\Common</Filter>
     </ClInclude>
   </ItemGroup>
