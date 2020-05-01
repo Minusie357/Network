@@ -147,9 +147,36 @@ int release_memory(resource_manager* rm, void* buffer)
 	return find;
 }
 
-int release_descriptor(resource_manager* rm, int* descriptor)
+int release_descriptor(resource_manager* rm, int descriptor)
 {
-	return -1;
+	if (rm == NULL)
+		return -1;
+
+	if (rm->desc_size == 0)
+		return -1;
+
+	int find = -1;
+	for (int i = 0; i < rm->desc_size; ++i)
+	{
+		if (rm->pdescriptor[i] == descriptor)
+		{
+			// set flag and close file descriptor
+			find = 1;
+			close(rm->pdescriptor[i]);
+			rm->desc_size -= 1;
+
+			// move array elems to left
+			int src;
+			for (int dest = i; dest < rm->desc_size - 1; ++dest)
+			{
+				src = dest + 1;
+				rm->pdescriptor[dest] = rm->pdescriptor[src];
+			}
+
+			break;
+		}
+	}
+	return find;
 }
 
 void release_manager(resource_manager* rm)

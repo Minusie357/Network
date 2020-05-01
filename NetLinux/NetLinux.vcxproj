@@ -147,9 +147,12 @@
     <ClCompile Include="Sources\Basic\basic_tcp_client.c" />
     <ClCompile Include="Sources\Basic\basic_tcp_service.c" />
     <ClCompile Include="Sources\Basic\conn_echo_client.c" />
+    <ClCompile Include="Sources\Basic\fork.c" />
     <ClCompile Include="Sources\Basic\getbyhostname.c" />
     <ClCompile Include="Sources\Basic\io-syscall.c" />
     <ClCompile Include="Sources\Basic\ip_uint.c" />
+    <ClCompile Include="Sources\Basic\tcp_mp_client.c" />
+    <ClCompile Include="Sources\Basic\tcp_mp_server.c" />
     <ClCompile Include="Sources\Basic\real_echo_client.c" />
     <ClCompile Include="Sources\Basic\recvfromprint.c" />
     <ClCompile Include="Sources\Basic\sendto.c" />

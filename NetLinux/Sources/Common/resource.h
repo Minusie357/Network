@@ -32,5 +32,5 @@ int bind_descriptor(resource_manager* rm, int descriptor);
 // release memory specified pointer. return 1 if success, otherwise -1
 int release_memory(resource_manager* rm, void* buffer);
 // release descriptor specified pointer. return 1 if success, otherwise -1. (no implements currently)
-int release_descriptor(resource_manager* rm, int* descriptor);
+int release_descriptor(resource_manager* rm, int descriptor);
 
