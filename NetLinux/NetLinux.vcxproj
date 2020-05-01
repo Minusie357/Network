@@ -158,6 +158,8 @@
     <ClCompile Include="Sources\Basic\sendto.c" />
     <ClCompile Include="Sources\Basic\sendtowithbind.c" />
     <ClCompile Include="Sources\Basic\socket_syscall.c" />
+    <ClCompile Include="Sources\Basic\udp_char_client.c" />
+    <ClCompile Include="Sources\Basic\udp_chat_server.c" />
     <ClCompile Include="Sources\Basic\unconn_echo_server.c" />
     <ClCompile Include="Sources\Common\errorproc.c" />
     <ClCompile Include="Sources\Common\recvfrom.c" />

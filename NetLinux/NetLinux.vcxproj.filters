@@ -57,13 +57,19 @@
       <Filter>소스 파일\Basic\UDP\Comb4</Filter>
     </ClCompile>
     <ClCompile Include="Sources\Basic\fork.c">
-      <Filter>소스 파일\Basic\MultiProcess</Filter>
-    </ClCompile>
-    <ClCompile Include="Sources\Basic\tcp_mp_server.c">
-      <Filter>소스 파일\Basic\MultiProcess</Filter>
+      <Filter>소스 파일\Basic\MultiProcess\Comb1</Filter>
     </ClCompile>
     <ClCompile Include="Sources\Basic\tcp_mp_client.c">
-      <Filter>소스 파일\Basic\MultiProcess</Filter>
+      <Filter>소스 파일\Basic\MultiProcess\Comb1</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Basic\tcp_mp_server.c">
+      <Filter>소스 파일\Basic\MultiProcess\Comb1</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Basic\udp_chat_server.c">
+      <Filter>소스 파일\Basic\MultiProcess\Comb2</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Basic\udp_char_client.c">
+      <Filter>소스 파일\Basic\MultiProcess\Comb2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -102,6 +108,12 @@
     </Filter>
     <Filter Include="소스 파일\Basic\MultiProcess">
       <UniqueIdentifier>{780b570e-134c-464e-ad3b-5eb85594a46c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Basic\MultiProcess\Comb1">
+      <UniqueIdentifier>{4b5f2a6f-7120-45be-90df-add1e7ddcf55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Basic\MultiProcess\Comb2">
+      <UniqueIdentifier>{ecd234a4-687b-4a53-9366-b22a38dc4364}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
