@@ -151,6 +151,8 @@
     <ClCompile Include="Sources\Basic\getbyhostname.c" />
     <ClCompile Include="Sources\Basic\io-syscall.c" />
     <ClCompile Include="Sources\Basic\ip_uint.c" />
+    <ClCompile Include="Sources\Basic\signal_basic.c" />
+    <ClCompile Include="Sources\Basic\signal_second.c" />
     <ClCompile Include="Sources\Basic\tcp_mp_client.c" />
     <ClCompile Include="Sources\Basic\tcp_mp_server.c" />
     <ClCompile Include="Sources\Basic\real_echo_client.c" />
@@ -158,6 +160,7 @@
     <ClCompile Include="Sources\Basic\sendto.c" />
     <ClCompile Include="Sources\Basic\sendtowithbind.c" />
     <ClCompile Include="Sources\Basic\socket_syscall.c" />
+    <ClCompile Include="Sources\Basic\tcp_sig_mp_server.c" />
     <ClCompile Include="Sources\Basic\udp_char_client.c" />
     <ClCompile Include="Sources\Basic\udp_chat_server.c" />
     <ClCompile Include="Sources\Basic\unconn_echo_server.c" />
@@ -175,6 +178,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <ClCompile>
       <AdditionalIncludeDirectories>C:\Users\Minusi\Desktop\General\Study\Network\common;C:\Users\Minusi\Desktop\General\Study\Network\NetLinux\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CLanguageStandard>c11</CLanguageStandard>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
@@ -185,6 +189,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
     <ClCompile>
       <AdditionalIncludeDirectories>C:\Users\Minusi\Desktop\General\Study\Network\common;C:\Users\Minusi\Desktop\General\Study\Network\NetLinux\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CLanguageStandard>c11</CLanguageStandard>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
@@ -195,6 +200,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalIncludeDirectories>C:\Users\Minusi\Desktop\General\Study\Network\common;C:\Users\Minusi\Desktop\General\Study\Network\NetLinux\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CLanguageStandard>c11</CLanguageStandard>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -205,6 +211,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
     <ClCompile>
       <AdditionalIncludeDirectories>C:\Users\Minusi\Desktop\General\Study\Network\common;C:\Users\Minusi\Desktop\General\Study\Network\NetLinux\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CLanguageStandard>c11</CLanguageStandard>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">

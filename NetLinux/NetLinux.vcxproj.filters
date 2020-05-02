@@ -71,6 +71,15 @@
     <ClCompile Include="Sources\Basic\udp_char_client.c">
       <Filter>소스 파일\Basic\MultiProcess\Comb2</Filter>
     </ClCompile>
+    <ClCompile Include="Sources\Basic\signal_basic.c">
+      <Filter>소스 파일\Basic\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Basic\signal_second.c">
+      <Filter>소스 파일\Basic\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Basic\tcp_sig_mp_server.c">
+      <Filter>소스 파일\Basic\IPC</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="소스 파일">
@@ -114,6 +123,9 @@
     </Filter>
     <Filter Include="소스 파일\Basic\MultiProcess\Comb2">
       <UniqueIdentifier>{ecd234a4-687b-4a53-9366-b22a38dc4364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Basic\IPC">
+      <UniqueIdentifier>{9a12a2bd-c55c-46f3-b41f-fa8d0fa55968}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
